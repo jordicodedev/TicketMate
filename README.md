@@ -4,7 +4,12 @@ TicketMate is a Laravel-based ticket manager that allows you to keep track of ti
 
 ## Link to demo project
 
-Link: ticketmate.host
+Link: https://ticketmate.host/
+
+## Dependencies
+
+- Laravel 10.x
+- PHP 7.4 or higher
 
 ## Installation
 
@@ -23,12 +28,7 @@ Then navigate to the localhost in your web browser. i.e. http://localhost:8000
 
 TicketMate allows you to create, view, and manage tickets, assign them to team members, and track their progress. You can also change the status of a ticket to reflect its progress.
 
-To use TicketMate, simply log in to the dashboard and start creating tickets. You can assign tickets to team members, set their status, and add comments to keep everyone informed.
-
-## Dependencies
-
-- Laravel 10.x
-- PHP 7.4 or higher
+To use TicketMate, simply log in to the dashboard and start creating tickets. You can assign tickets to team members and set their status.
 
 ## Screenshots
 
@@ -42,10 +42,6 @@ To use TicketMate, simply log in to the dashboard and start creating tickets. Yo
 ## Contributing
 
 If you'd like to contribute to TicketMate, please fork the repository and create a pull request. You can also submit bug reports or feature requests through Github issues.
-
-## Contact
-
-If you have any questions or concerns, please contact the project maintainer at email@example.com.
 
 ## License
 
