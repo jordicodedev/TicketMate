@@ -4,6 +4,10 @@ namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use App\Models\User;
+use App\Models\Ticket;
+
+
 
 class DatabaseSeeder extends Seeder
 {
@@ -12,11 +16,15 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // \App\Models\User::factory(10)->create();
+        //Generate 5 users from the factory method
+        User::factory(5)->create();
 
-        // \App\Models\User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
-        // ]);
+        //Generate TicketStatus using the Seeder class
+        $this->call([
+            TicketStatusSeeder::class
+        ]);
+
+        //Generate 20 tickets from the factory method
+        Ticket::Factory(20)->create();
     }
 }
